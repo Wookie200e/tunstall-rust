@@ -1,2 +1,4 @@
 /target
-/Cargo.toml
+/shell.nix
+/.envrc
+/.direnv
