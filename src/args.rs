@@ -10,8 +10,8 @@ use clap::
 
 pub struct TunstallArgs
 {
-    /// The first argument
-    pub first_arg: u32,
-    /// The second argument
-    pub secon_arg: u32,
+    /// The size of tunstall symbols in bits
+    pub tunstall_width: u32,
+    /// Name of the specified file 
+    pub file_name: String,
 }

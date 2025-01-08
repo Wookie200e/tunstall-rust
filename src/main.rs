@@ -9,7 +9,11 @@ use clap::Parser;       // Allow parser from clap
 
 fn main() 
 {  
-   println!("Version 2");
-   let args:TunstallArgs = TunstallArgs::parse();
-   println!();
+   let args = TunstallArgs::parse();      // Add the passed arguments into a struct called args
+   
+   let tunstall_width = args.tunstall_width;
+   let file_name = args.file_name;
+
+   println!("Tunstall width: {}", tunstall_width);
+   println!("File name: {}", file_name);
 }
