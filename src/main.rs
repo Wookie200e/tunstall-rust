@@ -9,6 +9,6 @@ use clap::Parser;       // Allow parser from clap
 
 fn main() 
 {  
-   println!("Hello World!");
+   println!("Version 2");
    let args:TunstallArgs = TunstallArgs::parse();
 }
