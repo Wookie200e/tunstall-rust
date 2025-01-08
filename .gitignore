@@ -2,3 +2,4 @@
 /shell.nix
 /.envrc
 /.direnv
+/python
