@@ -11,7 +11,7 @@ use clap::
 pub struct TunstallArgs
 {
     /// The first argument
-    pub first_arg: String,
+    pub first_arg: u32,
     /// The second argument
-    pub secon_arg: String,
+    pub secon_arg: u32,
 }

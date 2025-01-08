@@ -11,4 +11,5 @@ fn main()
 {  
    println!("Version 2");
    let args:TunstallArgs = TunstallArgs::parse();
+   println!();
 }
